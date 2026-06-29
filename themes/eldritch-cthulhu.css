@@ -152,6 +152,9 @@ paper-slider#volume-slider {
 span#hover-time-info.style-scope.ytmusic-player-bar {
     color: var(--cust-text)!important
 }
+span.time-info.style-scope.ytmusic-player-bar {
+    color: var(--cust-text)!important
+}
 paper-icon-button#play-pause-button,
 tp-yt-iron-icon#icon {
     --iron-icon-fill-color: var(--cust-purple)!important
