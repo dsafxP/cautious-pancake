@@ -1,4 +1,4 @@
-default: write optimize
+default: write
 
 _deploy_custom VARIANT \
     nav_bg bg selection \
@@ -49,8 +49,3 @@ write:
         "#fb5bb6" "#8a69f7" "#8a69f7" "#38ff9f" "#ffaf4d" "#fb5b66" \
         "#1e2029" "#7081d0" \
         "#c9cbcd"
-
-optimize:
-    for f in themes/*; do \
-        cssmin < "$f" > "$f.min" && mv "$f.min" "$f"; \
-    done
